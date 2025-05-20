@@ -1,4 +1,21 @@
 .daily-prophet {
-    background-color: brown;
-    height: 100px;
+    height: 1000px;
+    width: 59%;
+    background-color: #e7e2da;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.paper-header {
+    height: 200px;
+    background-image: url(img/paper-head.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.paper-sub-header {
+    height: 120px;
+    background-image: url(img/paper-sub-head.PNG);
 }
