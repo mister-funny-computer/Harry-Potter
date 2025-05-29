@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Wet+Paint&display=swap');
+
 .daily-prophet {
     height: 1000px;
     width: 59%;
     background-color: #e7e2da;
     margin: auto;
     margin-top: 5vh;
+    padding: 50px;
 }
 
 .paper-header {
@@ -18,4 +21,26 @@
 .paper-sub-header {
     height: 120px;
     background-image: url(img/paper-sub-head.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.paper-content {
+    border: 3px solid black ;
+}
+
+.first-article-title {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.first-article-img {
+    opacity: 0.7;
+    float: right;
+}
+
+.first-article-text {
+     font-family: "Great Vibes", cursive;
 }
