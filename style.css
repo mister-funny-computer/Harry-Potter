@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Wet+Paint&display=swap');
 
 .daily-prophet {
-    height: 1000px;
     width: 59%;
     background-color: #e7e2da;
     margin: auto;
@@ -27,7 +26,9 @@
 }
 
 .paper-content {
-    border: 3px solid black ;
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .first-article-title {
@@ -39,8 +40,13 @@
 .first-article-img {
     opacity: 0.7;
     float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .first-article-text {
-     font-family: "Great Vibes", cursive;
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    line-height:30px;
+    text-align: justify;
 }
