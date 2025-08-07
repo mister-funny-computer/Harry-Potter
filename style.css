@@ -29,12 +29,14 @@
     border: 3px solid black;
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .first-article-title {
     text-align: center;
     font-size: 70px;
     font-family: "Rubik Wet Paint", system-ui;
+    text-shadow: 0 10px 10px rgb(76, 76, 76);
 }
 
 .first-article-img {
@@ -47,22 +49,30 @@
 .first-article-text {
     font-family: "Great Vibes", cursive;
     font-size: 25px;
-    line-height:30px;
+    line-height: 30px;
     text-align: justify;
 }
 
 .second-article-text {
-
+    font-family: "Great Vibes", cursive;
+    line-height: 32px;
+    font-size: 25px;
 }
 
 .column {
-
+    width: 27.5%;
+    float: left;
+    text-align: justify;
+    padding: 25px;
 }
 
 .second-article-title {
-
+    font-size: 50px;
+    font-family: "Rubik Wet Paint", system-ui;
+    text-align: center;
+    text-shadow: 0 10px 10px rgb(76, 76, 76)
 }
 
 .second-article {
-    
+    padding-left: 45px;
 }
